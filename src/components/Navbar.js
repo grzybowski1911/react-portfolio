@@ -24,7 +24,7 @@ useEffect(() => {
     showButton();
 }, []);
 
-    window.addEventListener('resize', showButton);
+window.addEventListener('resize', showButton);
 
 const updateNav = () => {
     if (window.scrollY > 80) {
