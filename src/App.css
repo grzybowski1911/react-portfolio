@@ -5,6 +5,14 @@
   font-family: 'Pattaya', sans-serif;
 }
 
+h1, h2, h3, h4 {
+  font-family: 'Pattaya', sans-serif;
+}
+
+h5, h6, p {
+  font-family: 'Roboto', sans-serif;
+}
+
 .home,
 .services,
 .products,

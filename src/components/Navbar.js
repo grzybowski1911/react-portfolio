@@ -48,16 +48,16 @@ window.addEventListener('scroll', updateNav);
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='/' className="nav-links" onClick={closeMobileMenu}>Home</Link>
+                            <Link to='/' className="nav-links" onClick={closeMobileMenu}>Work History</Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/services' className="nav-links" onClick={closeMobileMenu}>Services</Link>
+                            <Link to='/services' className="nav-links" onClick={closeMobileMenu}>Recent Projects</Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/products' className="nav-links" onClick={closeMobileMenu}>Products</Link>
+                            <Link to='/products' className="nav-links" onClick={closeMobileMenu}>About Ben</Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>Sign Up</Button>}
+                    {button && <Button buttonStyle='btn--outline'>Get In Touch!</Button>}
                 </div>
             </nav>
         </>
