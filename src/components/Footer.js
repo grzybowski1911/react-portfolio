@@ -2,103 +2,27 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './Footer.css';
+import {ReactComponent as NavLogo} from './2021-logo-white.svg';
 
+const year = () => {
+    return new Date().getFullYear();
+}
 
 function Footer() {
     return (
         <div className='footer-container'>
-            <section className='footer-subscription'>
-                <p className='footer-subscription-heading'>
-                    I need more react practice to learn 
-                </p>
-                <p className='footer-subscription-text'>
-                    give me money
-                </p>
-                <div className='input-areas'>
-                    <form>
-                        <input className='footer-input' type="email" name='email' placeholder='give me money'></input>
-                        <Button buttonStyle='btn--outline'>Money</Button>
-                    </form>
-                </div>
-            </section>
-            <div className='footer-links'>
-                <div className='footer-link-wrapper'>
-                    <div className='footer-link-items'>
-                        <h2>About us</h2>
-                        <Link to='/sign-up'>How it works</Link>
-                        <Link to='/'>Testimonials</Link>
-                        <Link to='/'>Testimonials</Link>
-                    </div>
-                    <div className='footer-link-items'>
-                        <h2>About us</h2>
-                        <Link to='/sign-up'>How it works</Link>
-                        <Link to='/'>Testimonials</Link>
-                        <Link to='/'>Testimonials</Link>
-                    </div>
-                </div>
-                <div className='footer-link-wrapper'>
-                    <div className='footer-link-items'>
-                        <h2>About us</h2>
-                        <Link to='/sign-up'>How it works</Link>
-                        <Link to='/'>Testimonials</Link>
-                        <Link to='/'>Testimonials</Link>
-                    </div>
-                    <div className='footer-link-items'>
-                        <h2>About us</h2>
-                        <Link to='/sign-up'>How it works</Link>
-                        <Link to='/'>Testimonials</Link>
-                        <Link to='/'>Testimonials</Link>
-                    </div>
-                </div>
-                <div className='footer-link-wrapper'>
-                    <div className='footer-link-items'>
-                        <h2>About us</h2>
-                        <Link to='/sign-up'>How it works</Link>
-                        <Link to='/'>Testimonials</Link>
-                        <Link to='/'>Testimonials</Link>
-                    </div>
-                    <div className='footer-link-items'>
-                        <h2>About us</h2>
-                        <Link to='/sign-up'>How it works</Link>
-                        <Link to='/'>Testimonials</Link>
-                        <Link to='/'>Testimonials</Link>
-                    </div>
-                </div>
-            </div>
             <section className='social-media'>
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
-                        <Link to='/' className='social-logo'>BenG  <i className="far fa-angry"></i></Link>
+                        <NavLogo />
                     </div>
-                    <small className='website-rights'>BenG 2021</small>
+                    <div className="footer-nav">
+                        <Button className="btns" buttonStyle='btn--primary' buttonSize='btn--large' >Get In Touch</Button>
+                    </div>
                     <div className='social-icons'>
                         <Link
-                        className='social-icon-link facebook'
-                        to='/'
-                        target='_blank'
-                        aria-label='Facebook'
-                        >
-                        <i className='fab fa-facebook-f' />
-                        </Link>
-                        <Link
-                        className='social-icon-link instagram'
-                        to='/'
-                        target='_blank'
-                        aria-label='Instagram'
-                        >
-                        <i className='fab fa-instagram' />
-                        </Link>
-                        <Link
-                        className='social-icon-link youtube'
-                        to='/'
-                        target='_blank'
-                        aria-label='Youtube'
-                        >
-                        <i className='fab fa-youtube' />
-                        </Link>
-                        <Link
                         className='social-icon-link twitter'
-                        to='/'
+                        to='https://twitter.com/BenGrzybowski'
                         target='_blank'
                         aria-label='Twitter'
                         >
@@ -106,7 +30,7 @@ function Footer() {
                         </Link>
                         <Link
                         className='social-icon-link twitter'
-                        to='/'
+                        to='https://www.linkedin.com/in/ben-grzybowski-733144110/'
                         target='_blank'
                         aria-label='LinkedIn'
                         >
@@ -115,6 +39,7 @@ function Footer() {
                     </div>
                 </div>
             </section>
+            <small className='website-rights'>Ben Grzybowski © {year()} </small>
         </div>
     )
 }
