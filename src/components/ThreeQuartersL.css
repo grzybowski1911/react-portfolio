@@ -1,0 +1,27 @@
+.container-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-center {
+    display: flex;
+    align-items: center;
+}
+
+.custom-row {
+    min-height: 75vh;
+    max-width: 1200px;
+    box-shadow: 1px 1px 15px 0px #3F618C;
+    margin: 45px;
+    border-radius: 10px;
+}
+
+.copy {
+    padding: 45px;
+}
+
+.image-center {
+    display: flex;
+    justify-content: center;
+}
