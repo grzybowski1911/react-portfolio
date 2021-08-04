@@ -1,12 +1,15 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './Jobs.css';
 import ThreeQuatersL from './ThreeQuartersL';
 import ThreeQuatersR from './ThreeQuartersR';
+
+
 
 function Jobs() {
     return (
         <>
         <h2 class="jobs-title">My Work History</h2>
+        <div>
         <ThreeQuatersL 
             color="#F2F2F2"
             title="Advantage Media partners" 
@@ -16,6 +19,8 @@ function Jobs() {
             label="Advantage Media Partners Job Image"
             src="images/amp-logo.png"
         />
+        </div>
+        <div>
         <ThreeQuatersR 
             color="linear-gradient(180deg, rgba(242,242,242,1) 0%, rgba(206,232,242,1) 50%, rgba(206,232,242,1) 100%)"
             title="Databricks - Marketing Team" 
@@ -24,7 +29,8 @@ function Jobs() {
             desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
             label="Databricks job Image"
             src="images/databricks-logo.png"
-        />    
+        />   
+        </div> 
         <ThreeQuatersL 
             color="#cee8f2"
             title="Codemay" 
