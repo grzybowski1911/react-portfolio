@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import './Jobs.css';
 import ThreeQuatersL from './ThreeQuartersL';
 import ThreeQuatersR from './ThreeQuartersR';
@@ -8,10 +8,10 @@ import ThreeQuatersR from './ThreeQuartersR';
 function Jobs() {
     return (
         <>
-        <h2 class="jobs-title">My Work History</h2>
+        <h2 className="jobs-title">My Work History</h2>
         <div>
         <ThreeQuatersL 
-            color="#F2F2F2"
+            color="#fffff"
             title="Advantage Media partners" 
             jobTitle="Lead Web Developer"
             dates="6/20 - Present"
@@ -22,7 +22,7 @@ function Jobs() {
         </div>
         <div>
         <ThreeQuatersR 
-            color="linear-gradient(180deg, rgba(242,242,242,1) 0%, rgba(206,232,242,1) 50%, rgba(206,232,242,1) 100%)"
+            color="linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(242,242,242,1) 100%)"
             title="Databricks - Marketing Team" 
             jobTitle="Web Developer / Content Creator"
             dates="8/20 - Present"
@@ -32,7 +32,7 @@ function Jobs() {
         />   
         </div> 
         <ThreeQuatersL 
-            color="#cee8f2"
+            color="#F2F2F2"
             title="Codemay" 
             jobTitle="Web Developer"
             dates="1/20 - 4/20"
@@ -41,7 +41,7 @@ function Jobs() {
             src="images/codemay-logo.png"
         />
         <ThreeQuatersR 
-            color="linear-gradient(180deg, rgba(206,232,242,1) 0%, rgba(242,242,242,1) 75%, rgba(242,242,242,1) 100%)"
+            color="linear-gradient(180deg, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 75%, rgba(255,255,255,1) 100%)"
             title="Gravitate" 
             jobTitle="Web Developer"
             dates="11/19 - 1/20"
@@ -50,7 +50,7 @@ function Jobs() {
             src="images/gravitate-logo.png"
         />
         <ThreeQuatersL 
-            color="#F2F2F2"
+            color="#fff"
             title="Say Media" 
             jobTitle="Quality Assurance Analyst"
             dates="1/18 - 11/19"

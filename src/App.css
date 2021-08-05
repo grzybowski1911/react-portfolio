@@ -24,6 +24,21 @@ h5, h6, p {
   font-size: 3rem;
 }
 
+.intro {
+  display: flex;
+  justify-content: center;
+}
+
+.intro .row {
+  max-width: 1200px;
+}
+
+.intro-title {
+  padding: 4rem 4rem 0rem 4rem;
+  margin: 0;
+  text-align: center;
+}
+
 .services {
   background-image: url('images/bg-img-1.jpg');
   background-position: center;
