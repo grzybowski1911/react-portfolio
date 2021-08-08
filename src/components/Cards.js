@@ -5,6 +5,7 @@ import './Cards.css';
 
 function Cards() {
     return (
+        <>
         <div className='cards'>
             <h2>Some of my recent work.</h2>
             <div className='cards__containers'>
@@ -22,6 +23,7 @@ function Cards() {
                 </div>
             </div>
         </div>
+        </>
     )
 }
 

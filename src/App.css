@@ -13,6 +13,10 @@ h5, h6, p {
   font-family: 'Roboto', sans-serif;
 }
 
+.pad-45 {
+  padding: 45px;
+}
+
 .home,
 .services,
 .products,
@@ -29,12 +33,17 @@ h5, h6, p {
   justify-content: center;
 }
 
-.intro .row {
+.container-fluid {
+  display: flex;
+  justify-content: center;
+}
+
+.row {
   max-width: 1200px;
 }
 
 .intro-title {
-  padding: 4rem 4rem 0rem 4rem;
+  padding: 2rem;
   margin: 0;
   text-align: center;
 }

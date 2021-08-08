@@ -1,0 +1,8 @@
+.project-images img {
+    width: 100%;
+}
+
+.details-container {
+    position: sticky;
+    top: 100px;
+}

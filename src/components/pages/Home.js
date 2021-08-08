@@ -9,7 +9,7 @@ function Home() {
         <>
         <HeroSection />
         <div className="container-fluid intro">
-            <div className="row">
+            <div className="row pad-45">
                 <div className="col-12">
                     <h2 className="intro-title">Welcome to my resume/portfolio website</h2>
                     <p>My name is Ben and I am a web developer. I have 5 years of experience working primarily as a Web Developer for digital marketing companies. I have extensive working knowledge of PHP, CSS/SASS, JS, and of course HTML. I am also familiar with front-end frameworks including React and Bootstrap. I also understand the core programming concepts shared by all programming languages. </p>
