@@ -12,10 +12,10 @@ function HeroSection() {
         var logo = document.getElementById('banner-logo');
         if(pos <= hero) {
             var op = 1 - pos / hero; 
-        } else {
-            op = 1;
-        }
-        logo.style.opacity = op;
+            } else {
+                op = 1;
+            }
+            logo.style.opacity = op;
     }
 
     window.addEventListener('scroll', fadeLogo);

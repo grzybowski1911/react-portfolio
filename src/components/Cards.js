@@ -1,5 +1,6 @@
 import React from 'react'
 import CardItem from './CardItem'
+import {Link} from 'react-router-dom';
 import './Cards.css';
 
 
@@ -12,7 +13,7 @@ function Cards() {
                 <div className='cards__wrapper'>
                     <div className='cards__items'>
                         <CardItem src="images/legal-experts-direct-thumb.jpg" text="Wordpress powered directory for users seeking legal expert witnesses" label="Custom Directory Website" path='/services' />
-                        <CardItem src="images/nate-leslie-thumb.jpg" text="Custom Website build for Seattle Tattoo Artist Nate Leslie" label="Custom Tattoo Artist Website" path='/services' />
+                        <CardItem src="images/nate-leslie-thumb.jpg" text="Custom Website build for Seattle Tattoo Artist Nate Leslie" label="Custom Tattoo Artist Website" path='/projects/nate-leslie' />
                         <CardItem src="images/cheff-ranch-thumb.jpg" text="Wordpress build for ranch offering cabins, and adventures in Montana" label="Custom Wordpress Website" path='/services' />
                     </div>
                     <div className='cards__items'>
