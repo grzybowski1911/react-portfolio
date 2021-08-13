@@ -17,9 +17,6 @@ import Footer from './components/Footer';
 
 
 function App() {
-  React.useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
   return (
     <>
       <Router>

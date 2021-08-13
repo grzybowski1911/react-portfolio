@@ -5,7 +5,7 @@ import ProjectDetails from '../ProjectDetails';
 function Trident() {
     return (
         <div>
-            <h1 className="pad-45">Asha Integrative Wellness</h1>
+            <h1 className="pad-45">Trident Sport Fishing Website and Custom Booking Solution</h1>
             <ProjectDetails 
             images={['../images/trident-fishing-homepage.jpg','../images/trident-booking-archive.jpg','../images/trident-fishing-single.jpg']}
             projectTitle='Fishing charter website with custom booking solution'
