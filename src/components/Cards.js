@@ -18,7 +18,7 @@ function Cards() {
                     <div className='cards__items'>
                         <CardItem src="images/advantage-media-partners-thumb.jpg" text="Updating Wordpress website for PNW Marketing company" label="Wordpress Child Theme Development" path='/projects/amp' />
                         <CardItem src="images/asha-pdx-thumb.jpg" text="Building a modern web precense for alternative healthcare provider" label="Wordpress &#38; Divi Development" path='/projects/asha' />
-                        <CardItem src="images/freaks-and-geeks-thumb.jpg" text="Custom Wordpress build for Portland, OR tattoo shop" label="Custom Wordpress Website" path='/services' />
+                        <CardItem src="images/freaks-and-geeks-thumb.jpg" text="Custom Wordpress build for Portland, OR tattoo shop" label="Custom Wordpress Website" path='/projects/freaks-and-geeks' />
                     </div>
                 </div>
             </div>
