@@ -23,6 +23,13 @@
     border: 1px solid var(--primary);
     transition: all 0.3s ease-out;
   }
+
+  .btn--solid {
+    background: black;
+    color: white;
+    border: solid 1px black;
+    transition: all 0.3s ease-out;
+  }
   
   .btn--medium {
     padding: 8px 20px;
@@ -40,4 +47,9 @@
     background: #fff;
     color: #242424;
     transition: 250ms;
+  }
+
+  .btn--solid:hover {
+    color: black;
+    background: white;
   }

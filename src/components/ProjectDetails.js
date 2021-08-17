@@ -1,5 +1,6 @@
 import React from 'react';
 import './ProjectDetails.css';
+import { Button } from './Button';
 
 
 function ProjectDetails(props) {
@@ -17,6 +18,7 @@ function ProjectDetails(props) {
                     <div className="details-container">
                         <h2>{props.projectTitle}</h2>
                         <p>{props.details}</p>
+                        <Button link={props.link} buttonStyle='btn--solid'>View The Full Site</Button>
                     </div>
                 </div>
             </div>            

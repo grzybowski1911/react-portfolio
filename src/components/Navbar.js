@@ -57,7 +57,7 @@ window.addEventListener('scroll', updateNav);
                             <Link to='/products' className="nav-links" onClick={closeMobileMenu}>About Ben</Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>Get In Touch!</Button>}
+                    {button && <Button link="/contact" buttonStyle='btn--outline'>Get In Touch!</Button>}
                 </div>
             </nav>
         </>
