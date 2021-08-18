@@ -9,7 +9,8 @@ function NateLeslie() {
             <ProjectDetails 
             images={['../images/nate-leslie-homepage.jpg','../images/nate-leslie-booking.jpg']}
             projectTitle='Custom website for seattle tattoo artist with integrated instagram feed'
-            details="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. "
+            details="Nate Leslie is a vastly experience tattoo artist based in Seattle WA. I came across his work at a Portland Tattoo convention and I was blown away by his work and said to myself I'm going to have him do a tattoo on me one a year later he was tattooing me and mentioned he was interested in having a website created for his work and gathering booking information from people. Well, that happened to work out perfectly because there I was! I built this site on WordPress using a combination of the Understrap starter theme that has BootStrap baked into the theme files, and also using ACF to create an easy-to-use backend experience. It also features an automatic Instagram feed that pulls in new photos of his work every time he posts to Instagram."
+            link ="https://nateleslie.bgrzdesigns.com"
             />
         </div>
     )

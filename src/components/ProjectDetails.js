@@ -1,11 +1,10 @@
 import React from 'react';
 import './ProjectDetails.css';
-import { Button } from './Button';
-
 
 function ProjectDetails(props) {
     const imgs = props.images;
-    console.log(imgs);
+    console.log(props.link);
+    const link = props.link;
     return (
         <div className="container-fluid">
             <div className="row">
@@ -18,7 +17,9 @@ function ProjectDetails(props) {
                     <div className="details-container">
                         <h2>{props.projectTitle}</h2>
                         <p>{props.details}</p>
-                        <Button link={props.link} buttonStyle='btn--solid'>View The Full Site</Button>
+                        <a href={props.link} target="_blank" rel="noopener noreferrer">
+                            <button class="btn btn--solid btn--med">View The Full Site</button>
+                        </a>
                     </div>
                 </div>
             </div>            

@@ -48,7 +48,7 @@ window.addEventListener('scroll', updateNav);
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='#work-history' className="nav-links" onClick={closeMobileMenu}>Work History</Link>
+                            <Link to='/#work-history' className="nav-links" onClick={closeMobileMenu}>Work History</Link>
                         </li>
                         <li className='nav-item'>
                             <Link to='/services' className="nav-links" onClick={closeMobileMenu}>Recent Projects</Link>

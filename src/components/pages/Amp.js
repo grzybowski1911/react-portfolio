@@ -9,7 +9,8 @@ function Amp() {
             <ProjectDetails 
             images={['../images/amp-nav-desktop.jpg','../images/amp-mobile-nav-closed.jpg','../images/amp-mobile-nav.jpg']}
             projectTitle='Custom Elevated Menu experience and Ad Preview Tool'
-            details="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. "
+            details="While working with Advantage Media Partners I was tasked with providing development assistance with a new company website. Part of this included building a custom navigation with a slide-out menu mobile experience. It also includes some useful tools for the sales team at, one such tool being an AdWords demo, which allows a sales team member to demonstrate to a client in real-time what goes into an AdWords campaign. It allows some of the more, shall we say involved clients, to help create their campaigns. Once the demostration is complete all of the fields are sent to the AdWords specialists on our team."
+            link="http://advantagemedia.globalmedia.io/"
             />
         </div>
     )
