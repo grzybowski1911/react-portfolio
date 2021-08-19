@@ -74,6 +74,7 @@
   .nav-links:hover {
     border-bottom: 4px solid #fff;
     transition: all 0.2s ease-out;
+    color: #72CEF2;
   }
   
   .fa-bars {
@@ -110,7 +111,7 @@
     }
   
     .nav-menu.active {
-      background: #242222;
+      background: #72CEF2;
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
@@ -126,7 +127,7 @@
   
     .nav-links:hover {
       background-color: #fff;
-      color: #242424;
+      color: #72CEF2;
       border-radius: 0;
     }
   
@@ -169,7 +170,7 @@
   
     .nav-links-mobile:hover {
       background: #fff;
-      color: #242424;
+      color: #72CEF2;
       transition: 250ms;
     }
   }

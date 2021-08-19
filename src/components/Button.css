@@ -9,6 +9,10 @@
     border: none;
     cursor: pointer;
   }
+
+  .btn:hover {
+    color: #72CEF2;
+  }
   
   .btn--primary {
     background-color: var(--primary);
@@ -21,6 +25,14 @@
     color: #fff;
     padding: 8px 20px;
     border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+  }
+
+  .btn--outline--blk {
+    background-color: transparent;
+    color: black;
+    padding: 8px 20px;
+    border: 1px solid black;
     transition: all 0.3s ease-out;
   }
 
@@ -45,11 +57,11 @@
   .btn--medium:hover {
     transition: all 0.3s ease-out;
     background: #fff;
-    color: #242424;
+    color: #72CEF2;
     transition: 250ms;
   }
 
   .btn--solid:hover {
-    color: black;
+    color: #72CEF2;
     background: white;
   }

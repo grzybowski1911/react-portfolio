@@ -1,11 +1,13 @@
 import React from 'react';
 import './ProjectDetails.css';
+import { HashLink as Link } from 'react-router-hash-link';
 
 function ProjectDetails(props) {
     const imgs = props.images;
     console.log(props.link);
     const link = props.link;
     return (
+        <>
         <div className="container-fluid">
             <div className="row">
                 <div className="col-md-8 project-images">
@@ -24,6 +26,21 @@ function ProjectDetails(props) {
                 </div>
             </div>            
         </div>
+        <div className="container-fluid pad-45">
+            <div className="row">
+                <div className="col-md-6">
+                    <Link to='/#projects' className="nav-links">
+                        <button class="btn btn--solid btn--med">Back To All Projects</button>
+                    </Link>
+                </div>
+                <div className="col-md-6">
+                    <Link to='/#projects' className="nav-links">
+                        <button class="btn btn--outline--blk btn--med">Back To All Projects</button>
+                    </Link>
+                </div>
+            </div>
+        </div>
+        </>
     )
 }
 

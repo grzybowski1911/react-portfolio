@@ -11,7 +11,7 @@ function Jobs() {
         <div className="container-fluid intro" id="work-history">
             <div className="row pad-45">
                 <div className="col-12">
-                    <h2 className="jobs-title">My Work History</h2>
+                    <h2 className="jobs-title">My background is in Digital Marketing.</h2>
                 </div>
             </div>
         </div>

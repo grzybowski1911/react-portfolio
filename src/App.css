@@ -17,10 +17,7 @@ h5, h6, p {
   padding: 45px;
 }
 
-.home,
-.services,
-.products,
-.sign-up {
+.home {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -28,9 +25,13 @@ h5, h6, p {
   font-size: 3rem;
 }
 
-.intro {
+.intro, .about {
   display: flex;
   justify-content: center;
+}
+
+.about {
+  text-align: center;
 }
 
 .container-fluid {
@@ -42,35 +43,8 @@ h5, h6, p {
   max-width: 1200px;
 }
 
-.intro-title {
+.intro-title, .about-title {
   padding: 2rem;
   margin: 0;
   text-align: center;
-}
-
-.services {
-  background-image: url('images/bg-img-1.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.products {
-  background-image: url('images/bg-img-1.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.sign-up {
-  background-image: url('images/bg-img-1.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
 }

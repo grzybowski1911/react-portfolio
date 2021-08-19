@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import {Link} from 'react-router-dom';
+//import {Link} from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import {Button} from './Button';
 import './Navbar.css';
 import {ReactComponent as NavLogo} from './2021-logo-white.svg';
@@ -34,6 +35,8 @@ const updateNav = () => {
     }
 }
 
+
+
 window.addEventListener('scroll', updateNav);
 
     return (
@@ -51,10 +54,10 @@ window.addEventListener('scroll', updateNav);
                             <Link to='/#work-history' className="nav-links" onClick={closeMobileMenu}>Work History</Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/services' className="nav-links" onClick={closeMobileMenu}>Recent Projects</Link>
+                            <Link to='/#projects' className="nav-links" onClick={closeMobileMenu}>Recent Projects</Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/products' className="nav-links" onClick={closeMobileMenu}>About Ben</Link>
+                            <Link to='/#more-info' className="nav-links" onClick={closeMobileMenu}>About Ben</Link>
                         </li>
                     </ul>
                     {button && <Button link="/contact" buttonStyle='btn--outline'>Get In Touch!</Button>}

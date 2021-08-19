@@ -20,6 +20,17 @@ function Home() {
         </div>
         <Jobs />
         <Cards />
+        <div className="container-fluid about" id="more-info">
+            <div className="row pad-45">
+                <div className="col-12">
+                    <h2 className="about-title">About Me</h2>
+                    <p>Believe it or not, when I'm not coding, designing, developing, digital marketing, freelancing or drinking coffee I enjoy other activities!</p>
+                    <p><strong>I enjoy the outdoors.</strong> Hiking, camping, biking, skating, exploring, I thoroughly enjoy the outdoors. </p>
+                    <p><strong>I play guitar and make music.</strong> Originally I wanted to be a rockstar.. well that didn’t quite pan out, but I still play!</p>
+                    <p><strong>I prefer dogs over cats.</strong> This one’s important, and I’m bold enough to say it, I like dogs more than cats.</p>
+                </div>
+            </div>
+        </div>
         </>
     );
 }

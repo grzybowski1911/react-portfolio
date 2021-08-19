@@ -2,11 +2,10 @@
     padding: 4rem;
     background: #F2F2F2;
   }
-  
-  h1 {
-    text-align: center;
+  .cards-title {    
+    padding: 4rem 4rem 0rem 4rem;
+    margin: 0;
   }
-  
   .cards__container {
     display: flex;
     flex-flow: column;
